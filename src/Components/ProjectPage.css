@@ -1,0 +1,12 @@
+.project-title{
+    text-align: center;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
