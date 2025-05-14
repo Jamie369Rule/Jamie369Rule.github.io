@@ -4,7 +4,6 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import HomePage from "./Components/HomePage";
 import ProjectsPage from "./Components/ProjectPage.js";
-import ContactPage from "./Components/ContactPage.js";
 import CertificationPage from "./Components/CertificationPage.js";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/certifications" element={<CertificationPage />} />
-        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );

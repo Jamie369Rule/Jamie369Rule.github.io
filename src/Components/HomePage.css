@@ -1,3 +1,46 @@
-.HomePage{
-    text-align: center;
-}
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .home-page-content {
+    display: flex;
+    flex-direction: row; /* Horizontal split */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust the width as per your requirement */
+  }
+  
+  .image-column {
+    flex: 1; /* Takes up 50% of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 80%; /* Adjust the width of your image */
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .text-column {
+    flex: 1; /* Takes up 50% of the space */
+    padding-left: 20px; /* Space between text and image */
+  }
+  
+  .text-column h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .text-column p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

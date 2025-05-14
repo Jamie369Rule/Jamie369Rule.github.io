@@ -1,23 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CertificationPage.css";
 import Card from "./Card";
+import cert1 from "../images/Degree.png";
+import cert2 from "../images/React_Cert.png";
 
 function CertificationPage() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <>
-      <h1 className="certification-title">certifications</h1>
+      <h1 className="certification-title">Certifications</h1>
       <div className="certification-cards">
         <Card
           title="Computer Science Degree"
-          image={require("../images/Otago-Logo.jpeg")}
+          image={cert1}
+          onClick={() => setSelectedImage(cert1)}
         />
         <Card
           title="React Certification"
-          image={require("../images/React_Cert.png")}
+          image={cert2}
+          onClick={() => setSelectedImage(cert2)}
         />
-        <Card title="Card" />
-        <Card title="Card" />
       </div>
+
+      {selectedImage && (
+        <div className="modal" onClick={() => setSelectedImage(null)}>
+          <span className="close">&times;</span>
+          <img src={selectedImage} alt="Full View" className="modal-content" />
+        </div>
+      )}
     </>
   );
 }

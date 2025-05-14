@@ -6,15 +6,7 @@ function ProjectPage() {
   return (
     <>
       <h1 className="project-title">Projects</h1>
-      <div className="project-cards">
-        <Card title="Card" />
-        <Card title="Card" />
-        <Card title="Card" />
-        <Card title="Card" />
-        <Card title="Card" />
-        <Card title="Card" />
-        <Card title="Card" />
-      </div>
+      <div className="project-cards"></div>
     </>
   );
 }
