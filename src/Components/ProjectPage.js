@@ -1,12 +1,27 @@
 import React from "react";
+import { useState } from "react";
 import Card from "./Card";
 import "./ProjectPage.css";
+import todoImage from "../images/ToDoList.png";
 
 function ProjectPage() {
+  const [selectedImage, setSelectedImage] = useState(null);
   return (
     <>
       <h1 className="project-title">Projects</h1>
-      <div className="project-cards"></div>
+      <div className="project-cards">
+        <Card
+          title={"To-Do List"}
+          image={todoImage}
+          onClick={() => setSelectedImage(todoImage)}
+        />
+      </div>
+      {selectedImage && (
+        <div className="modal" onClick={() => setSelectedImage(null)}>
+          <span className="close">&times;</span>
+          <img src={selectedImage} alt="Full View" className="modal-content" />
+        </div>
+      )}
     </>
   );
 }
