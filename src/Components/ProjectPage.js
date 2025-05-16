@@ -3,6 +3,7 @@ import { useState } from "react";
 import Card from "./Card";
 import "./ProjectPage.css";
 import todoImage from "../images/ToDoList.png";
+import inProgressImage from "../images/Loading.avif";
 
 function ProjectPage() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -14,6 +15,11 @@ function ProjectPage() {
           title={"To-Do List"}
           image={todoImage}
           onClick={() => setSelectedImage(todoImage)}
+        />
+        <Card
+          title={"In Progress"}
+          image={inProgressImage}
+          onClick={() => setSelectedImage(inProgressImage)}
         />
       </div>
       {selectedImage && (
