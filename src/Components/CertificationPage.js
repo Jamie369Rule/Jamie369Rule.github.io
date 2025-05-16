@@ -3,6 +3,8 @@ import "./CertificationPage.css";
 import Card from "./Card";
 import cert1 from "../images/Degree.png";
 import cert2 from "../images/React_Cert.png";
+import cert3 from "../images/PreSecurity_Cert.png";
+import cert4 from "../images/SD_Job_Simulation_Cert.png";
 
 function CertificationPage() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -20,6 +22,16 @@ function CertificationPage() {
           title="React Certification"
           image={cert2}
           onClick={() => setSelectedImage(cert2)}
+        />
+        <Card
+          title="Pre Security Certification"
+          image={cert3}
+          onClick={() => setSelectedImage(cert3)}
+        />
+        <Card
+          title="Job Simulation Certification"
+          image={cert4}
+          onClick={() => setSelectedImage(cert4)}
         />
       </div>
 
