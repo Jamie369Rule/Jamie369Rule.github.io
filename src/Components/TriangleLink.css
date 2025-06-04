@@ -1,0 +1,66 @@
+.triangle {
+  position: fixed; /* Allows manual positioning with top/left/right/bottom */
+  width: 45vw;         /* Half the viewport width */
+  height: 45vh;        /* Half the viewport height */
+  transition: width 0.3s ease, height 0.3s ease;
+  text-decoration: none; /* Removes link underline */
+  color: white;        /* Text color */
+  font-weight: bold;   /* Bold text */
+  font-size: 3rem;   /* Reasonable text size */
+  display: flex;       /* Enables flexbox for centering label */
+  justify-content: center;  /* Center horizontally by default */
+  align-items: center;
+}
+
+/* Position-specific styling */
+.top-left {
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+  text-align: right;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 100%, 100% 100%, 0 0);
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
+  text-align: right;
+}
+
+.triangle.collapsed {
+  width: 10%;
+  height: 10%;
+  font-size: 0;
+}
+
+/* Hover to expand */
+.triangle:hover {
+  width: 50% !important;
+  height: 50% !important;
+  z-index: 10; /* To pop above others */
+  font-size: 3rem;
+}
