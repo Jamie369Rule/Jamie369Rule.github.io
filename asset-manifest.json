@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.449b6320.css",
-    "main.js": "/static/js/main.d8991a58.js",
+    "main.js": "/static/js/main.23fa8bf6.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/RogueWaves1.png": "/static/media/RogueWaves1.5a4505b1bc280fd6b7bf.png",
     "static/media/RogueWaves2.png": "/static/media/RogueWaves2.5547e751bc8c4010f91e.png",
@@ -16,11 +16,11 @@
     "static/media/Loading.avif": "/static/media/Loading.359b8c522c1ad2a374f0.avif",
     "index.html": "/index.html",
     "main.449b6320.css.map": "/static/css/main.449b6320.css.map",
-    "main.d8991a58.js.map": "/static/js/main.d8991a58.js.map",
+    "main.23fa8bf6.js.map": "/static/js/main.23fa8bf6.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.449b6320.css",
-    "static/js/main.d8991a58.js"
+    "static/js/main.23fa8bf6.js"
   ]
 }
