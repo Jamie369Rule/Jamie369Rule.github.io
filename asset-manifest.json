@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c50e582.css",
-    "main.js": "/static/js/main.f3b9b320.js",
+    "main.css": "/static/css/main.449b6320.css",
+    "main.js": "/static/js/main.d8991a58.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "static/media/RogueWaves1.png": "/static/media/RogueWaves1.5a4505b1bc280fd6b7bf.png",
+    "static/media/RogueWaves2.png": "/static/media/RogueWaves2.5547e751bc8c4010f91e.png",
     "static/media/profile.JPG": "/static/media/profile.65254e27863e73025da3.JPG",
+    "static/media/RogueWaves3.png": "/static/media/RogueWaves3.b7b87545f95af498c734.png",
     "static/media/React_Cert.png": "/static/media/React_Cert.d7f9baf3d442bb32a474.png",
+    "static/media/RogueWaves4.png": "/static/media/RogueWaves4.cb14440c7990469e5d12.png",
     "static/media/PreSecurity_Cert.png": "/static/media/PreSecurity_Cert.da4408ef13d2c5dc4141.png",
     "static/media/ToDoList.png": "/static/media/ToDoList.9729811d1162d80114cf.png",
     "static/media/Degree.png": "/static/media/Degree.3494509b7ac1238b972a.png",
     "static/media/SD_Job_Simulation_Cert.png": "/static/media/SD_Job_Simulation_Cert.0b7009c0911ec97dd6ba.png",
     "static/media/Loading.avif": "/static/media/Loading.359b8c522c1ad2a374f0.avif",
     "index.html": "/index.html",
-    "main.4c50e582.css.map": "/static/css/main.4c50e582.css.map",
-    "main.f3b9b320.js.map": "/static/js/main.f3b9b320.js.map",
+    "main.449b6320.css.map": "/static/css/main.449b6320.css.map",
+    "main.d8991a58.js.map": "/static/js/main.d8991a58.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c50e582.css",
-    "static/js/main.f3b9b320.js"
+    "static/css/main.449b6320.css",
+    "static/js/main.d8991a58.js"
   ]
 }
