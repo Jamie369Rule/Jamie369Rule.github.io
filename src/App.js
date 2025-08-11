@@ -6,11 +6,11 @@ import {
   useLocation,
 } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Components/Navbar";
 import HomePage from "./Components/HomePage";
 import ProjectsPage from "./Components/ProjectPage.js";
 import CertificationPage from "./Components/CertificationPage.js";
 import TriangleLink from "./Components/TriangleLink";
+import ExperiencePage from "./Components/ExperiencePage.js";
 
 function TriangleLinksWrapper() {
   const location = useLocation();
@@ -58,6 +58,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/certifications" element={<CertificationPage />} />
+        <Route path="/experience" element={<ExperiencePage />} />
       </Routes>
     </Router>
   );

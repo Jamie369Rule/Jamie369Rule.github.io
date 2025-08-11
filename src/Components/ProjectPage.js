@@ -43,7 +43,7 @@ function ProjectPage() {
         />
 
         <Card
-          title="RogueWaves"
+          title="RogueWaves (Uni Team Project)"
           images={[
             RogueWavesImage1,
             RogueWavesImage2,
